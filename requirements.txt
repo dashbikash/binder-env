@@ -1,0 +1,15 @@
+numpy
+psutil
+toolz
+matplotlib
+dill
+pandas
+partd
+bokeh
+dask
+feature_engine
+scikit-learn
+flaml
+autoviz
+pandas-profiling
+ucimlrepo
