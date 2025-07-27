@@ -4,6 +4,6 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/downl
 tar xf lazygit.tar.gz lazygit
 install lazygit -D -t ~/bin/
 rm lazygit.tar.gz lazygit
-chmod a+x ./clone-repo.sh
+chmod a+x ./git-clone
 echo 'git config --global user.name "Bikash"' >> ~/.bashrc
 echo 'git config --global user.email "bikashprakashdash@gmail.com"' >> ~/.bashrc
