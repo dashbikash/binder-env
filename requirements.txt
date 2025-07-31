@@ -13,3 +13,5 @@ flaml
 autoviz
 pandas-profiling
 ucimlrepo
+keras
+tensorflow
