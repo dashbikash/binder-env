@@ -1,6 +1,6 @@
 {
   "@jupyterlab/completer-extension:manager": {
-     "autoCompletion": "true",
+     "autoCompletion": true
   },
   "@jupyterlab/codemirror-extension:plugin":{
     "defaultConfig": {
@@ -8,6 +8,6 @@
       }
   },
   "@jupyterlab/apputils-extension:themes":{
-    "theme": "JupyterLab Dark",
+    "theme": "JupyterLab Dark"
   }
 }
