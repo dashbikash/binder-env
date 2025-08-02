@@ -1,0 +1,10 @@
+{
+  "@jupyterlab/completer-extension:manager": {
+     "autoCompletion": "true",
+  },
+  "@jupyterlab/codemirror-extension:plugin":{
+    "defaultConfig": {
+          "autoClosingBrackets": true
+      }
+  }
+}
