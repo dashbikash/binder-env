@@ -6,5 +6,8 @@
     "defaultConfig": {
           "autoClosingBrackets": true
       }
+  },
+  "@jupyterlab/apputils-extension:themes":{
+    "theme": "JupyterLab Dark",
   }
 }
