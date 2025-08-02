@@ -8,3 +8,6 @@ rm lazygit.tar.gz lazygit
 chmod a+x ./start
 echo 'git config --global user.name "Bikash"' >> ~/.bashrc
 echo 'git config --global user.email "bikashprakashdash@gmail.com"' >> ~/.bashrc
+
+mkdir -p ${NB_PYTHON_PREFIX}/share/jupyter/lab/settings
+mv overrides.json ${NB_PYTHON_PREFIX}/share/jupyter/lab/settings
