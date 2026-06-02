@@ -15,5 +15,5 @@ pandas-profiling
 ucimlrepo
 keras
 tensorflow
+openai
 openai-agents
-torch
