@@ -17,3 +17,4 @@ keras
 tensorflow
 openai
 openai-agents
+hf
