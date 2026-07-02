@@ -6,6 +6,12 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/downl
 tar xf lazygit.tar.gz lazygit
 install lazygit -D -t ~/bin/
 rm lazygit.tar.gz lazygit
+# Download and install Micro Editor (x86_64)
+curl -Lo micro.tar.gz "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-linux64.tar.gz"
+tar -xzf micro.tar.gz --strip-components=1 "micro-2.0.15/micro"
+install micro -D -t ~/bin/
+rm micro.tar.gz micro
+
 chmod a+x ./start
 echo 'git config --global user.name "Bikash"' >> ~/.bashrc
 echo 'git config --global user.email "bikashprakashdash@gmail.com"' >> ~/.bashrc
