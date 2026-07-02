@@ -1,1 +1,3 @@
 w3m
+ppa:maveonair/helix-editor
+helix
